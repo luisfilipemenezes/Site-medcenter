@@ -73,7 +73,7 @@ nav a:hover{
 .banner{
     display: flex;
     justify-content: center;
-    background-image: url(img1.jpg);
+    background-image: url("https://img.freepik.com/fotos-gratis/retrato-de-enfermeira-bonita_1258-16469.jpg?w=1380");
     background-position: center;
     background-size: cover;
     height: 700px;
