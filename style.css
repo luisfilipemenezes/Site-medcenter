@@ -1,0 +1,170 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+header{
+    display:flex;
+    justify-content: center;
+    height: 120px;
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    
+   
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    
+}
+
+.logosize{
+    
+    height: 50px;
+    width: auto;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+nav ul,nav li{
+    margin:0;
+    display: flex;
+    list-style: none;
+    
+}
+
+a{
+    font-family:Arial, Helvetica, sans-serif;
+    color: #727272;
+    text-transform: uppercase;
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+    
+}
+
+nav .active a {
+    color: white;
+    background-color: #39aae1;
+}
+
+nav a:hover{
+    
+    color:white;
+    background-color: #39aae1;
+}
+
+
+.banner{
+    display: flex;
+    justify-content: center;
+    background-image: url(img1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.texto{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.opcoes{
+    height: 210px;
+    display:flex;
+    flex-direction: row;
+}
+
+.texto h1{
+    color: white;
+    font-size: 60px;
+    text-shadow: 1px 1px 1px black;
+    margin: 0;
+    padding: 0;
+}
+
+.texto h2{
+    color: white;
+    font-size: 30px;
+    text-shadow: 0px 1px 0px black;
+    margin: 0;
+    padding: 0;
+    width: 300px;
+}
+
+.banner1,.banner2,.banner3{
+    flex:1;
+    padding: 20px;
+}
+
+.banner1{
+    color:white;
+    background-color: #39aae1 ;
+
+}
+
+.banner2{
+    color:white;
+    background-color: #0079c7 ;
+}
+
+.banner3{
+    color:white;
+    background-color: #2b4c99;
+}
+
+.titulo{
+    font-size: 25px;
+}
+
+.geral{
+    display: flex;
+    justify-content: center;
+}
+
+.geral section{
+    padding-top: 15px;
+    flex:2
+}
+.geral aside{
+    flex:1
+}
+
+.widget_title{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.widget_title_text{
+    color:black;
+    font-size:21px ;
+    font-weight: bold;
+}
+
+.widget_title_bar{
+    width: 50px;
+    height: 3px;
+    background-color: #36a9e1 ;
+    margin-top: 10px;
+}
